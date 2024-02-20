@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="bootstrap.rtl.min.css">
+</head>
+<body>
+    <!-- start Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span>T</span>ravel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#book">Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallary">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Home -->
+    <div class="Home" id="home">
+        <div class="container text-center align-items-center pt-5 pb-5">
+            <div class="text">
+                <h2 class="pt-">Welcome To World</h2>
+                <h1>Visit <span class="countries"></span></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn-1 mt-2">Book Place</button>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Home -->
+
+    <!-- Book -->
+    <div class="Book pt-5 pb-3" id="book">
+        <h1 class="fw-bold text-center pt-5"><span>B</span>OOK</h1>
+        <div class="container pt-5">
+            <div class="row pt-5">
+                <div class="col-lg-5 col-md-6">
+                    <div class="img-book">
+                        <img class="img-fluid" src=" book-img.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-md-6 " id="form">
+                    <div class="form-book">
+                        <form action="">
+                            <input type="text" placeholder=" Where To">
+                            <input type="text" placeholder="How Many">
+                            <input type="date" placeholder="dd/mm/yyyy">
+                            <input type="date" placeholder="dd/mm/yyyy">
+                            <textarea name="" id="" cols="60" rows="7" placeholder="Enter Your Name & Details "></textarea >
+                            <button id="btn-book">Book Now</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Book -->
+
+    <!-- Packages  -->
+    <div class="Packages pt-5 pb-3" id="packages">
+        <h1 class="fw-bold text-center pt-5"><span>P</span>ackages</h1>
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="Packages-box ">
+                        <img class="img-fluid" src=" uk.png" alt="">
+                        <div class="content p-3">
+                            <h3 class="pt-4 fw-bold">United Kingdom</h3>
+                            <p class="text-black-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, nesciunt!</p>
+                            <p class="text-black">price: 500$</p>
+                            <button id="btn-book">Book Now</button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="Packages-box ">
+                        <img class="img-fluid" src=" france.png" alt="">
+                        <div class="content p-3">
+                            <h3 class="pt-4 fw-bold">France</h3>
+                            <p class="text-black-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, nesciunt!</p>
+                            <p class="text-black">price: 500$</p>
+                            <button id="btn-book">Book Now</button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="Packages-box ">
+                        <img class="img-fluid" src=" pakistan.png" alt="">
+                        <div class="content p-3">
+                            <h3 class="pt-4 fw-bold">Pakistan</h3>
+                            <p class="text-black-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, nesciunt!</p>
+                            <p class="text-black">price: 500$</p>
+                            <button id="btn-book">Book Now</button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="Packages-box ">
+                        <img class="img-fluid" src=" italy.png" alt="">
+                        <div class="content p-3">
+                            <h3 class="pt-4 fw-bold">Italy</h3>
+                            <p class="text-black-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, nesciunt!</p>
+                            <p class="text-black">price: 500$</p>
+                            <button id="btn-book">Book Now</button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="Packages-box ">
+                        <img class="img-fluid" src=" india.png" alt="">
+                        <div class="content p-3">
+                            <h3 class="pt-4 fw-bold">India</h3>
+                            <p class="text-black-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, nesciunt!</p>
+                            <p class="text-black">price: 500$</p>
+                            <button id="btn-book">Book Now</button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="Packages-box ">
+                        <img class="img-fluid" src=" us.png" alt="">
+                        <div class="content p-3">
+                            <h3 class="pt-4 fw-bold">Unnited State</h3>
+                            <p class="text-black-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, nesciunt!</p>
+                            <p class="text-black">price: 500$</p>
+                            <button id="btn-book">Book Now</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Packages  -->
+
+<!-- Services -->
+
+<div class="Services pt-2" id="Services">
+    <h1 class="fw-bold text-center pt-2 pb-5"><span>S</span>ervices</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="services-box" >
+                    <i class="fa-solid fa-hotel" id="hotel"></i>
+                    <h3 class="fw-bold text-center">Affordable Hotel</h3>
+                    <p class="text-black-50 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit elit .</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="services-box">
+                    <i class="fa-solid fa-utensils" id="food"></i>
+                    <h3 class="fw-bold text-center">Food & Drinks</h3>
+                    <p class="text-black-50 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit elit .</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="services-box">
+                    <i class="fa-solid fa-person" id="person"></i>
+                    <h3 class="fw-bold text-center">Safty Guide</h3>
+                    <p class="text-black-50 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit elit .</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="services-box">
+                    <i class="fa-solid fa-earth-americas" id="earth"> </i>
+                    <h3 class="fw-bold text-center">Around the World</h3>
+                    <p class="text-black-50 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit elit .</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="services-box">
+                    <i class="fa-solid fa-plane" id="plane"></i>
+                    <h3 class="fw-bold text-center">Fastest Travel</h3>
+                    <p class="text-black-50 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit elit .</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="services-box" >
+                    <i class="fa-solid fa-mountain-sun" id="mountain"></i>
+                    <h3 class="fw-bold text-center">Adventures</h3>
+                    <p class="text-black-50 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit elit .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Services -->
+
+<!-- Gallary -->
+<div class="Gallary pt-5 pb-5" id="gallary">
+    <h1 class="fw-bold text-center pt-2 pb-5"><span>G</span>allary</h1>
+    <div class="container pt-1">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="gallary-img">
+                    <img class="img-fluid" src=" g1.png" alt="">
+                </div>
+                
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="gallary-img">
+                    <img class="img-fluid" src=" g2.png" alt="">
+                </div>            
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="gallary-img">
+                    <img class="img-fluid" src=" g3.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="gallary-img">
+                    <img class="img-fluid" src=" g4.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="gallary-img">
+                    <img class="img-fluid" src=" g5.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="gallary-img">
+                    <img class="img-fluid" src=" g6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Gallary -->
+
+<!-- About -->
+<div class="About pt-5 pb-5" id="About">
+    <h1 class="fw-bold text-center pt-4 pb-5">About<span> Us</span></h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="about-img">
+                    <img class="img-fluid" src=" about-img.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-8 mt-3">
+                <div class="content">
+                    <h2 class="text-black fw-bold">How Travel Agency Work</h2>
+                    <p class="text-black-50">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Impedit non fugit voluptatem praesentium. Natus, doloremque
+                    provident? Tempora libero provident velit.Lorem ipsum dolor sit amet,.
+                    Impedit non fugit voluptatem praesentium. Natus, doloremque
+                    provident? Tempora libero provident velit.Lorem ipsum dolor sit amet,
+                    Impedit non fugit voluptatem praesentium. Natus, doloremque
+                    provident? Tempora libero provident velit.
+                    </p>
+                    <button id="btn-book" class="fw-bold read">Read More...</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End About  -->
+<br><br>
+<!-- footer -->
+<div class="footer mt-5 p-3">
+    <h1 class="fw-bold text-center pt-sm-5 "><span>T</span>ravel</h1>
+    <p class="text-center text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, adipisci!</p>
+    <div class="icon">
+            <a href="##"><i class="fa-brands fa-facebook" id="face"></i></a>
+            <a href="##"><i class="fa-brands fa-instagram" id="inst"></i></a>
+            <a href="##"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+            <a href="##"><i class="fa-brands fa-youtube" id="youtube"></i></a>
+            <a href="##"><i class="fa-brands fa-twitter" id="twit"></i></a>
+    </div>
+    <p class="text-center text-black-50 pt-1">Design by <a href="https://madyelshshaht.github.io/My-Profile/por.html">Mady</a></p>
+    <p class="text-center text-black-50">©Copyright Mady All Rights Reserved</p>
+
+</div>
+<!-- end Footer -->
+
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="travel.js"></script>
+    <script src="all.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
